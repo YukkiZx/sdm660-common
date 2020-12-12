@@ -134,6 +134,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
+
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     Gboard \
