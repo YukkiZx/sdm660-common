@@ -19,4 +19,6 @@
     <!-- Display ro.product.name above Device model -->
     <bool name="config_displayDeviceName">true</bool>
 
+    <!-- Whether SELinux status should be shown or not. -->
+    <bool name="config_show_selinux_status">true</bool>
 </resources>
