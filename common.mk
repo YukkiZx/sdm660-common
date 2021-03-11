@@ -116,7 +116,9 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData.system \
     libvulkan \
-    libtinyxml
+    libtinyxml \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
