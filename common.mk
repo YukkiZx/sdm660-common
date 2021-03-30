@@ -134,6 +134,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    Gboard \
+    GalleryGo
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-impl-qti \
