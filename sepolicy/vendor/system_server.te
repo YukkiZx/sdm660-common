@@ -23,3 +23,6 @@ allow system_server zygote:process { getpgid };
 allow system_server app_zygote:process { getpgid };
 allow system_server sysfs_kgsl:lnk_file { read };
 allow system_server media_rw_data_file:dir { setattr };
+
+#App Lock
+allow system_server default_android_service:service_manager { add };
